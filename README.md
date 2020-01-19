@@ -15,11 +15,13 @@ performSegue(withIdentifier: String, sender: Any?)
 unwind(for: UIStoryboardSegue, towardsViewController: UIViewController)
 ```
 
-
+# Trigguer the segue
 
 ```swift
 @IBOutlet weak var segueSwitch: UISwitch!
 ```
+
+# Storyboard
 
 ![Screen Recording 2020-01-18 at 22 05 59 2020-01-18 22_09_07](https://user-images.githubusercontent.com/24994818/72674690-32ed8900-3a3f-11ea-8667-d0b9562fdf3a.gif)
 
