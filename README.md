@@ -5,6 +5,18 @@ CreateProgrammaticSegues
 
 Segues defines a transition from one view controller to another.
 
+# Methods to work
+
+```swift
+performSegue(withIdentifier: String, sender: Any?)
+```
+
+```swift
+unwind(for: UIStoryboardSegue, towardsViewController: UIViewController)
+```
+
+
+
 ```swift
 @IBOutlet weak var segueSwitch: UISwitch!
 ```
