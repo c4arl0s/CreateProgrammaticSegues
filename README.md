@@ -9,6 +9,8 @@ Segues defines a transition from one view controller to another.
 @IBOutlet weak var segueSwitch: UISwitch!
 ```
 
+![Screen Shot 2020-01-18 at 22 01 34](https://user-images.githubusercontent.com/24994818/72674596-27e62900-3a3e-11ea-8aa3-0c1dd454a882.png)
+
 # 2. Create an action for each button
 
 ```swift
